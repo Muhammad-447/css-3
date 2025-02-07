@@ -75,7 +75,7 @@ i:hover h2{
         text-align: center;
 
     }
-    i:active{
+    i:hover{
         animation: icon 1s forwards;
     }
      @keyframes icon {
@@ -89,7 +89,7 @@ i:hover h2{
             transform: translatey(-15px);
         }
     } 
-    i:active h2{
+    i:hover h2{
         transition-delay: 0.5s;
         opacity: 1;
     }
